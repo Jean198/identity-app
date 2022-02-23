@@ -1,0 +1,15 @@
+{
+  "name": "visma-internship-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^17.3.1"
+  }
+}

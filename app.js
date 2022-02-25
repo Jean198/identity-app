@@ -9,7 +9,7 @@ class validateString{
 		this.results = {};
         //console.log(typeof(this.results));
 		this.url = parse(this.string, true);
-        console.log(this.url);
+        //console.log(this.url);
 		this.parametersList = Object.keys(this.url.query);
         
 	}

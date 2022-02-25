@@ -8,7 +8,7 @@ This is my solution to the internship coding task by Visma solutions.
 
 *Design and implement a class which is responsible for validating a string it receives as input. If the string passed to the class has scheme "visma-identity" the class will go on and process the string after the scheme. Otherwise the class should return an error("Invalid scheme for example") and the string won't be processed.*
 
-*If the scheme is valid, the string after it should contains only one of the following paths(actions): **login**, **confirm**, **sign** which should have the following parameters respectively: *source*, *source &paymentnumber*, **source & documentid**. *In other cases, the class should report some kind of error.*
+*If the scheme is valid, the string after it should contains only one of the following paths(actions):* **login**, **confirm**, **sign** *which should have the following parameters respectively:* **source**, **source &paymentnumber**, **source & documentid**. *In other cases, the class should report some kind of error.*
 
 *The class should return the "action" and the parameters with their values.*
 

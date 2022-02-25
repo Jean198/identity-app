@@ -44,6 +44,8 @@ In other cases, the methods return an error!.
 
 The results will be printed to the console by calling the main() method.
 
+The class is executed by running the command ***npm start*** or ***node app.js*** in the terminal.
+
 
 
 

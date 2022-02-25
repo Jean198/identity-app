@@ -54,7 +54,7 @@ The results will be printed to the console by calling the main() method.
 
 - The use of the word "class" in the task has been a bit confusing for me. I could maybe have understood the task quickly if I was asked to implement a "function" !.
 
-- The **url-parse** module extracts the scheme with colon(:), so for simplicity, I made the valid scheme *visma-identity:*
+- The **url-parse** module extracts the scheme with colon(:), so for simplicity, I made the valid scheme ***visma-identity:***
 
 ### Improvements that can be made
 - Maybe a parameter for identifying the user could be added to the string(ex: visma-identity://login?source=severa&userId=123). Right now there is no way to identify who wants to login.

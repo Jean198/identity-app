@@ -10,7 +10,7 @@ This is my solution to the internship coding task by Visma solutions.
 
 *If the scheme is valid, the string after it should contains only one of the following paths(actions):* **login**, **confirm**, **sign** *which should have the following parameters respectively:* **source**, **source &paymentnumber**, **source & documentid**. *In other cases, the class should report some kind of error.*
 
-*The class should return the "action" and the parameters with their values.*
+*The class should return the ***action** and the ***parameters with their values***.*
 
 ## The class structure and a brief explanation of how it works
 

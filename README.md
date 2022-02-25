@@ -63,8 +63,8 @@ The results will be printed to the console by calling the main() method.
 
 - **Nodejs with JavaScript**
 
-- **url-parse**(node): module to convert a string/url into an object with several properties.
+- **url-parse**(node): module(package) to convert a string/url into an object with several properties.
 
-- **prompt-sync**: Used to prompt inputs
+- **prompt-sync**: module(package) used to prompt inputs
 
 - VSCode

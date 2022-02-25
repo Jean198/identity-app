@@ -50,14 +50,14 @@ The results will be printed to the console by calling the main() method.
 
 
 ### Challenges I had
--When I first read the task, the use of REGEX was the first thing I thought of for string validation, but as I kept reading the task, I realised that maybe REGEX is not the option for this task! I had to do some recap for Javascript classes, and spent some time trying to figure out the best way to parse the string.
+- When I first read the task, the use of REGEX was the first thing I thought of for string validation, but as I kept reading the task, I realised that maybe REGEX is not the option for this task! I had to do some recap for Javascript classes, and spent some time trying to figure out the best way to parse the string.
 
 - The use of the word "class" in the task has been a bit confusing for me. I could maybe have understood the task quickly if I was asked to implement a "function" !.
 
--The url-parse extracts the scheme with colon(:), so for simplicity, I made the valid scheme *visma-identity:*
+- The url-parse extracts the scheme with colon(:), so for simplicity, I made the valid scheme *visma-identity:*
 
 ### Improvements that can be made
--Maybe a parameter for identifying the user could be added to the string(ex: visma-identity://login?source=severa&userId=123). Right now there is no way to identify who wants to login.
+- Maybe a parameter for identifying the user could be added to the string(ex: visma-identity://login?source=severa&userId=123). Right now there is no way to identify who wants to login.
 
 ## Development tools
 

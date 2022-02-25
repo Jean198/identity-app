@@ -1,20 +1,20 @@
 # Visma identity-app documentation
 
-In this project I have attempted to solve the internship test by Visma
+This is my solution to the internship coding task by Visma solutions.
 
 ## TASK
 
 ### This is the way I understood the task
 
-Design and implement a class which is responsible for validating a string it receives as input. If the string passed to the class has scheme "visma-identity" the class will go on and process the string after the scheme. Otherwise the class should return an error("Invalid scheme for example") and the string won't be processed.
+*Design and implement a class which is responsible for validating a string it receives as input. If the string passed to the class has scheme "visma-identity" the class will go on and process the string after the scheme. Otherwise the class should return an error("Invalid scheme for example") and the string won't be processed.*
 
-If the sheme is valid, the string after it should contains only one of the following paths(actions): "login", "confirm", "sign" which in turns should have the following parameters respectively: "source", "source &paymentnumber", "source & documentid". In other cases, the class should report some kind of error.
+*If the scheme is valid, the string after it should contains only one of the following paths(actions): "login", "confirm", "sign" which should have the following parameters respectively: "source", "source &paymentnumber", "source & documentid". In other cases, the class should report some kind of error.*
 
-The class should return the "action" and the "parameter value for the key".
+*The class should return the "action" and the parameters with their values.*
 
-## The class structure and functionality brief explanation
+## The class structure and a brief explanation of how it works
 
-The class has five methodes (constructor(), main(), login(), confirm() and sign()).
+The class has five methods (constructor(), main(), login(), confirm() and sign()).
 
 ### The constructor() method.
 
@@ -31,7 +31,7 @@ The class has five methodes (constructor(), main(), login(), confirm() and sign(
 ### The main() method.
 
 This method verifies if the **scheme** and the **action** are valid and
-will call the method that matches the **action**. This is the method that will be called in the for result display.
+will call the method that matches the **action**. This is the method that will be called in the end for result display.
 
 If either the scheme or the action is not valid, the method will return an error.
 
@@ -50,18 +50,21 @@ The results will be printed to the console by calling the main() method.
 
 
 ### Challenges I had
--When I first read the task, the use of REGEX was the first thing I thought of for string validation, but as I kept reading the task, I realised that maybe REGEX is not the option for this task!.
+-When I first read the task, the use of REGEX was the first thing I thought of for string validation, but as I kept reading the task, I realised that maybe REGEX is not the option for this task! I had to do some recap for Javascript classes, and spent some time trying to figure out the best way to parse the string.
+
+- The use of the word "class" in the task has been a bit confusing for me. I could maybe have understood the task quickly if I was asked to implement a "function" !.
 
 -The url-parse extracts the scheme with colon(:), so for simplicity, I made the valid scheme *visma-identity:*
 
 ### Improvements that can be made
 -Maybe a parameter for identifying the user could be added to the string(ex: visma-identity://login?source=severa&userId=123). Right now there is no way to identify who wants to login.
 
-### Compromises
-
 ## Development tools
 
-- Nodejs with JavaScript
-- url-parse
-- prompt-sync
+- **Nodejs with JavaScript**
+
+- **url-parse**(node): module to convert a string/url into an object with several properties.
+
+- **prompt-sync**: Used to prompt inputs
+
 - VSCode

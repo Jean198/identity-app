@@ -2,7 +2,7 @@ const prompt = require("prompt-sync")();
 const parse = require("url-parse");
 
 
-
+// class declaration----------------------------------------------------------------------------------
 class validateString{
     constructor() {
 		this.string = prompt("Enter the string to validate? ");
